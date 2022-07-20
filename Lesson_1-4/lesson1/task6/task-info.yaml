@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  encrypted_text: 8BTNc+fsZ9c7SoQXx0LN0QlrFYT2xP2LCNKscj9++ux4pf3ZBB3FV9jkApiFbRlN+89Oo3flFQGvYcV4xnad7N1xJ1uIovFDfHe7HIGdG2wr0hYbBTxfYvz/Bmvat6zufhZ2egUISgrFKVungdtGwA==
+  learner_created: false
+- name: __init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: BQzCyJNSSPwzq9fewDwIy88XQN94IR17f1TPewmZLELC+6AsBWQ8Th18BPw7M0IK7oq7H/q2B3dX6Y8xf6vJssuBG9m4ggGomXDkl9L9w2NXgp47NT8gP6zx9d1aZa7l+0tC4T+Gea8goit8uEosK0BkmAQ9BwIyLqMK3MbFYmCwGn5SqSz1sIBUhPKM6z3MgvuFY+w/SjEPvifG8TLR9gJcgEcSuZYmkzDOdan93H/HcvF2/M2QD+WmTnr5k7WT3H0QtstpcRue14OIxtVr6PFbj+Oxjm+n9JpK5LKTK5j6nG89uV04HODqSkBJey8PYuaYpgnNlgkwTbmUKdwsYmxmb1jo0fg4JLXMrO6XlM7BcSXUpu97YrZFx0ev053Kl/imMbGT04JtlO0BHpmaF4LkUg3ld12YSG8MxOuKupZguFDJN1A2KJM3mKuYyek5VH2kn5F13RdIZ7l2OzuNSj1rdbCzWCXEWL9OIeRXLpa5zEv8qmMr/LUsWO3Q5KzV
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jul 2022 14:16:09 UTC
+record: -1

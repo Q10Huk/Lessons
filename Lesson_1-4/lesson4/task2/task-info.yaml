@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  encrypted_text: igDqAIqeOJLVvX9H4LKE7C8oZXKLWpEfapP54Jxk0i2JZDlp/iFjC0jLR+TKjtchqnIZQeGS3SWJN6MwctxG6m2neo3RuYNNUo47fdyQmFivRdG94Ai54Fvue+Ddx+R0LVqF3nsym7l+1FDGwr/igrhPIsRVXBHrnb+Qy6Ya7yXzY/lj8BFv9GQ4S5wzTz3zJcgVl/XsVa+b3IDvVoUJL/iT7DyS/tPa+wh9YaxZ8nf9IRw12hMgEA5KXWzoTilA5g646FRlx7QKiYhmuc398HDyMPv85tPl6hOvmZcoSBZ9T6Nm8d9J+iZEX131FDFT
+  learner_created: false
+- name: __init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: bszTIguwPjeywHDejeDFYZGN1pM0fXL1YFUQqUx9jubZRFzgnM/psVd+6TBJ0J3kHjhZ1kvs1JsZycUkiIe5Sz+U80ogM1ZkCpyo6zXQ7pZPxwr+PPQLO6Tohaa+5uDs4yWCSYKTUUJQ19TAtrBn1+hv5H0UMkg5cI3EwSmNtM6mx7AxtlKm+GnHVLdUMr5hMpKrWlJdZwdSmtEpIPQvVqnjiIw/JNladoozBNbbbmg81TqBvB0SQPvrxuVHjFSuh7hSdY1J6KbEhFVADL6y5DNZtZkJoMLMdD90UaJE6xoPxAet7piC3s5x0mIcKoDDiTnwtqWCw2vrvF77MynajD4sWeDhyIa43UY9eH4N4IKrcJJQwZgV+MV+vHjE1m7woiKetJgb/HB6e0OojtD99VJNtt+/57fvdjB94AJgn/OazdUCmlnjpfwBwvOoy0KMq20/VxVIr7DQAGuMk6XlG0fLm7+2Hm+YA/GKd5BeyCJyuC6O153oF6rCL7N+mmoZO7uK8jhqrs6C+2M+0R0u+aTAGcNfMcxpGYcElS4AubjmQ//aREJ/NPqXbBlSg1rF7qBBdtjZO2ICWuvPpR2VEEcQZ9OnjJ7BOjk7nKOkt4U=
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jul 2022 14:36:07 UTC
+record: -1

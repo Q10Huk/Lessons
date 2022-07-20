@@ -1,0 +1,23 @@
+type: edu
+files:
+- name: __init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: tests/__init__.py
+  visible: false
+  encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+  learner_created: false
+- name: task.py
+  visible: true
+  encrypted_text: Vdz61NAQ1h9q7UREXGFh/eCs/80e6gNKoOyavdSzpr3hvvuExs8cgwSF0M6VF8A46fPrp6qWHbYP20QJ6xD50lukzZHR/OmGV1mghueOK/knialheuzKswawt0Y4cqRcDeP7GbzjVji1jdJZhHWvzjRRKBcXKQH17u3MbIPi3hfDzODfdVxr6l/7YVcSoIFE
+  learner_created: false
+- name: tests/test_task.py
+  visible: false
+  encrypted_text: bszTIguwPjeywHDejeDFYYxaDs87KiaLtml/NnjiHM2fqcpma4ha1pA363SdEja51wtZWN47Tfb6W7PExugoSyFQckkQRUQ/EQRvnN7sTvRj3m8I+2Ihc+qvS14fzqBt8NBDQFQu4A2LESWk7v7gKb+iKiVDpP1reX4K3oH8i67vEecaeAVgRQ8Zls1E+iD+ofDJIqrG5v8m5BdzTVDN+gEpalhJo9/hKS1dM0AfowAqD8Jq5sKyZ/cxRNiyHE6spF6j5preHDLLUNpwpGbourmYDmH9NnHiE5fEcNbQry6VMpeqipE57TmUiqAbmFjW1iIFVO51aKJ14Ia/C1IahDDbOMNFcYb0NG/0fmtScDCSO2a5WKQ6p/v20vDitnWi9SAp5pGkkpbZCsY8O99nqS+luDp3rkIVPdgNFpSkUSC5UwO478tR1HTbjW+dO5sx06aWCqM9ODIBLWaYYkLFLzcmsflKNUE4MunCM1UsDPmKxFwBPC6Yrbr4H3hnc6OVeayR77gig+mZa8bDd+LUDXQeyXxtV3TEiXClizkAZHET+BOJE5o3BZlz+74OOg5WfaF0Yq1T8MWn4q5qsNHbEdbEHIeM+7IXHf07OZDHBmjLHtY081NyQVX50xdyPyz6IevWrSutJjlIZkno5Zq6/deXIZXL77uxGnhbac+UA2IUHzK9zixJCYwultkSUFe7OObzL5iL6xBD5kr9466duKiFwSVsyMciwCkePI0mOlz9XXfN4pRU0qvmWXeXvIF2owppEL66G7RRDyep6kCfOasIaNRET2ReH2i06ajgQkVyFCsR6xsdrX/rxfPfWN9aLh2e4r4ks8PXNi9MXh6nx4C3y0y4ZAk9rPl98IdtGsOV3k/R4CcwATad4edj+m7f4W1yY8iL67iAlj1rohnQEfeDBSWQuNeU8XAsEiMMarZ6ZmJd7BLf2uQroxHw/Sd8CLF/olEk9GgeY8Uzc/iqfQHtKllnIw/KXtg7YrSSaAX8z87kNvy2/4wWNI8Ym33A3YAQIfmTml8T9IGUPlkZYIWWxjEbDac2gEL8j0/cUtdycln/ObVWIdN2BTX/2v2TJsrifP7lN1nXN6I1GGL+9AX9R9J4q6S5fVV3/vQW6vcjuXZYjdrkeses6VgtWtuApc/8lw3RFW7jmJJXHugSgrB4AHBVPv3oj5rmHlH3q0tYquCBQzd5WqAzet/z1M+v
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jul 2022 14:35:42 UTC
+record: -1
