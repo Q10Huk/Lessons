@@ -19,12 +19,29 @@ target = driver.find_element(By.CSS_SELECTOR, '[href="/download"]')
 actions = ActionChains(driver)
 actions.move_to_element(target)
 actions.perform()
+time.sleep(1)
 button_download = driver.find_element(By.CSS_SELECTOR, '[href="/download"]') .click()
 time.sleep(2)
 
-# получаем ссылки на этой странице //div[@data-for='ereport25']//a[@class='sbis_ru-DownloadNew-loadLink__link js-link']
-# потом надо положить это все в файл
+# получаем ссылки на этой странице
+download_links = driver.find_elements(By.XPATH, "//div[@data-for='ereport25']//a[@class='sbis_ru-DownloadNew-loadLink__link js-link']")
+# download_links = driver.find_elements(By.TAG_NAME, "//div[@data-for='ereport25']").__getattribute__('href')
+# download_links = download_links.__getattribute__('href')
+# print(download_links)
+download_links_list = []
+for a in download_links:
+    download_links_list.append(a.get_attribute('href'))
+#print(download_links_list)
+#for a in download_links_list:
+    #print(a+'\n')
+result_download_links_list = ['https://update.sbis.ru/version25/sbis-setup-eo-inst.exe', 'https://update.sbis.ru/version25/sbis-update-eo.exe', 'https://update.sbis.ru/version25/jinneeupdate.exe', 'https://update.sbis.ru/download/pdf417/print_pdf417.msi', 'https://update.sbis.ru/download/shabl/shabl.zip']
+assert download_links_list == result_download_links_list
 
-# assert
+# Теперь надо положить это все в файл
+file = open('download_links.txt', 'w')
+for index in download_links_list:
+    file.write(index + '\n')
+file.close()
+
 time.sleep(2)
 driver.quit()
