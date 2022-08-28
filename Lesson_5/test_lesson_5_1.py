@@ -5,9 +5,9 @@ from selenium.webdriver.common.by import By # импорт команд By дл�
 from selenium.webdriver.common.action_chains import ActionChains # Прокрутка к целевому элементу с помощью Actions
 
 driver = webdriver.Chrome()
-from selenium.webdriver.common.by import By # импорт команд By для CSS_SELECTOR
 time.sleep(1) # команда time.sleep устанавливает паузу в n секунд, чтобы мы успели увидеть, что происходит в браузере
 driver.get('https://sbis.ru/') # Метод get сообщает браузеру, что нужно открыть сайт по указанной ссылке
+driver.fullscreen_window() # Позволяет открывать окно на весь экран
 time.sleep(2)
 
 button_support = driver.find_element(By.XPATH, "//a[text()='Поддержка']") # '[href="/support"]'
@@ -20,7 +20,7 @@ actions = ActionChains(driver)
 actions.move_to_element(target)
 actions.perform()
 time.sleep(1)
-button_download = driver.find_element(By.CSS_SELECTOR, '[href="/download"]') .click()
+button_download = driver.find_element(By.CSS_SELECTOR, '[href="/download"]').click()
 time.sleep(2)
 
 # получаем ссылки на этой странице
@@ -34,8 +34,8 @@ for a in download_links:
 #print(download_links_list)
 #for a in download_links_list:
     #print(a+'\n')
-result_download_links_list = ['https://update.sbis.ru/version25/sbis-setup-eo-inst.exe', 'https://update.sbis.ru/version25/sbis-update-eo.exe', 'https://update.sbis.ru/version25/jinneeupdate.exe', 'https://update.sbis.ru/download/pdf417/print_pdf417.msi', 'https://update.sbis.ru/download/shabl/shabl.zip']
-assert download_links_list == result_download_links_list
+#result_download_links_list = ['https://update.sbis.ru/version25/sbis-setup-eo-inst.exe', 'https://update.sbis.ru/version25/sbis-update-eo.exe', 'https://update.sbis.ru/version25/jinneeupdate.exe', 'https://update.sbis.ru/download/pdf417/print_pdf417.msi', 'https://update.sbis.ru/download/shabl/shabl.zip']
+#assert download_links_list == result_download_links_list
 
 # Теперь надо положить это все в файл
 file = open('download_links.txt', 'w')
